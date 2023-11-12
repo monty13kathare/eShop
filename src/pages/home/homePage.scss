@@ -1,0 +1,65 @@
+.home-container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(223, 240, 240, 0.726);
+    .home-grid{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+        .home-carousel{
+            width: 100%;
+            padding: 0 2.5em;
+            display: flex;
+            height: 40rem;
+            background-color: #e9e1e1d7 !important;
+            position: relative;
+        }
+        .home-slider{
+            display: flex;
+            align-items: center;
+            padding:  0 3rem;
+            gap: 2rem;
+            width: 100%;
+            height: 20rem;
+         }
+        .home-category{
+            width: 100%;
+            height: 20rem;
+            display: flex;
+            flex-direction: column;
+            padding: 0 2.5em;
+            // background-color: rgb(98, 218, 144);
+        }
+        .best-sellers{
+            width: 100%;
+            height: auto;
+            display: flex;
+            flex-direction: column;
+            // background-color: rgb(216, 216, 40);
+            padding: 3rem;
+            .card-items{
+                display: flex;
+                align-items: center;
+                flex-wrap: wrap;
+            }
+        }
+        .new-arrivals{
+            width: 100%;
+            height: auto;
+            display: flex;
+            flex-direction: column;
+            padding: 3rem;
+            .card-items{
+                display: flex;
+                align-items: center;
+                flex-wrap: wrap;
+            }
+        }
+    }
+}

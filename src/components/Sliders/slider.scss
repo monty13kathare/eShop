@@ -1,0 +1,145 @@
+// ----------------------------- Home carousel --------------------------------
+
+.home-carousel-slider{
+    width: 100%;
+    height: 100%;
+  
+.home-slider{
+    width: 100% !important;
+    height: 100% !important;
+    background-color: #e7e0e0fa !important;
+    .carousel-container{
+        width: 100% !important;
+        height: 100% !important;
+        display: flex !important;
+        align-items: center;
+        .left-box{
+            height: 100% !important;
+            .title{}
+            .subTitle{}
+            .btn{
+                margin: 2rem 0;
+                color: #fff;
+                background-color: black;
+            }
+        }
+        .right-box{
+            width: 100%;
+            height: 40rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            img{
+                height: 100%;
+                width: 100%;
+            }
+        }
+    }
+}
+}
+// ----------------------------- Card Slider ----------------------------------
+.cardSlider{
+    width: 100%;
+    height: 100%;
+    .c-slider{
+        width: 100% !important;
+        height: 100% !important;
+        display: flex !important;
+        background-color: #fff !important;
+        .card-container{
+            width: 100% !important;
+           height: 20rem;
+        //    background-color: rgb(214, 211, 20);
+           display: flex !important;
+           align-items: center;
+           border-radius: 0.5rem;
+          
+         
+           .card-right-box{
+            width: 50%;
+            img{
+            height: 20rem;
+            }
+           } 
+           .card-left-box{
+            width: 50%;
+            .title{
+            }
+            .subTitle{}
+            .btn{
+               margin: 2rem 0 ;
+               color: #fff;
+               background-color: #000;
+            }
+           }
+        }
+    }
+}
+
+
+// ------------------------------ Category Slider ------------------------------
+.categorySlider{
+    width: 100%;
+    height: 100%;
+    .category-slider{
+        width: 100%;
+        height: 17rem;
+        display: flex;
+        align-items: center;
+        gap: 2rem;
+        .card-container{
+           display: flex;
+           flex-direction: column; 
+           align-items: center;
+           width: 8rem;
+           height: 12rem;
+           .card-right-box{
+            width: 100%;
+            height: 100%;
+            border-radius: 50%;
+            .image{
+                width: 100%;
+                height: 100%;
+                border-radius: 50%;
+                // background-color: lightblue;
+            }
+           }
+           .card-left-box{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 0.5rem;
+            .title{
+                font-size: 1rem;
+                font-weight: 600;
+                color: #000000da;
+            }
+           }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//  ------------------- React Slick CSS ---------------------
+.slick-track{
+    display: flex !important;
+    column-gap: 2rem !important;
+}
+.slick-next:before{
+    color: rgb(138, 132, 132) !important;
+}
+.slick-prev:before{
+    color: rgb(138, 132, 132) !important;
+}
